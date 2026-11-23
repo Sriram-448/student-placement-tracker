@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef1"
+      },
+      "Student__c": "@StudentRef1",
+      "Company__c": "@CompanyRef2",
+      "Status__c": "Offer Accepted"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef2"
+      },
+      "Student__c": "@StudentRef1",
+      "Company__c": "@CompanyRef4",
+      "Status__c": "Interview"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef3"
+      },
+      "Student__c": "@StudentRef2",
+      "Company__c": "@CompanyRef1",
+      "Status__c": "Offered"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef4"
+      },
+      "Student__c": "@StudentRef2",
+      "Company__c": "@CompanyRef3",
+      "Status__c": "Shortlisted"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef5"
+      },
+      "Student__c": "@StudentRef3",
+      "Company__c": "@CompanyRef2",
+      "Status__c": "Interview"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef6"
+      },
+      "Student__c": "@StudentRef3",
+      "Company__c": "@CompanyRef3",
+      "Status__c": "Applied"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef7"
+      },
+      "Student__c": "@StudentRef4",
+      "Company__c": "@CompanyRef1",
+      "Status__c": "Applied"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef8"
+      },
+      "Student__c": "@StudentRef5",
+      "Company__c": "@CompanyRef3",
+      "Status__c": "Shortlisted"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef9"
+      },
+      "Student__c": "@StudentRef5",
+      "Company__c": "@CompanyRef1",
+      "Status__c": "Rejected"
+    },
+    {
+      "attributes": {
+        "type": "Placement_Application__c",
+        "referenceId": "AppRef10"
+      },
+      "Student__c": "@StudentRef6",
+      "Company__c": "@CompanyRef1",
+      "Status__c": "Applied"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Package_Must_Be_Positive</fullName>
+    <active>true</active>
+    <description>Package cannot be zero or negative.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Package_LPA__c)), Package_LPA__c &lt;= 0)</errorConditionFormula>
+    <errorDisplayField>Package_LPA__c</errorDisplayField>
+    <errorMessage>Package (LPA) must be greater than 0.</errorMessage>
+</ValidationRule>

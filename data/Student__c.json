@@ -1,0 +1,82 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef1"
+      },
+      "Name": "Ananya Rao",
+      "Roll_Number__c": "21CSE001",
+      "Branch__c": "CSE",
+      "CGPA__c": 8.9,
+      "Email__c": "ananya@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef2"
+      },
+      "Name": "Karthik Menon",
+      "Roll_Number__c": "21CSE002",
+      "Branch__c": "CSE",
+      "CGPA__c": 7.2,
+      "Email__c": "karthik@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef3"
+      },
+      "Name": "Divya Iyer",
+      "Roll_Number__c": "21IT003",
+      "Branch__c": "IT",
+      "CGPA__c": 8.1,
+      "Email__c": "divya@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef4"
+      },
+      "Name": "Rahul Verma",
+      "Roll_Number__c": "21ECE004",
+      "Branch__c": "ECE",
+      "CGPA__c": 6.8,
+      "Email__c": "rahul@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef5"
+      },
+      "Name": "Sneha Pillai",
+      "Roll_Number__c": "21EEE005",
+      "Branch__c": "EEE",
+      "CGPA__c": 7.6,
+      "Email__c": "sneha@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    },
+    {
+      "attributes": {
+        "type": "Student__c",
+        "referenceId": "StudentRef6"
+      },
+      "Name": "Arjun Nair",
+      "Roll_Number__c": "21MECH006",
+      "Branch__c": "MECH",
+      "CGPA__c": 6.6,
+      "Email__c": "arjun@example.edu",
+      "Graduation_Year__c": "2026",
+      "Placement_Status__c": "Not Placed"
+    }
+  ]
+}

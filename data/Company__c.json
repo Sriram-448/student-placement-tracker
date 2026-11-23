@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Company__c",
+        "referenceId": "CompanyRef1"
+      },
+      "Name": "Acme Technologies",
+      "Industry__c": "IT Services",
+      "Minimum_CGPA__c": 6.5,
+      "Package_LPA__c": 4.5,
+      "Website__c": "https://example.com/acme"
+    },
+    {
+      "attributes": {
+        "type": "Company__c",
+        "referenceId": "CompanyRef2"
+      },
+      "Name": "Nimbus Cloud Labs",
+      "Industry__c": "Product",
+      "Minimum_CGPA__c": 7.5,
+      "Package_LPA__c": 9.0,
+      "Website__c": "https://example.com/nimbus"
+    },
+    {
+      "attributes": {
+        "type": "Company__c",
+        "referenceId": "CompanyRef3"
+      },
+      "Name": "Brightpath Consulting",
+      "Industry__c": "Consulting",
+      "Minimum_CGPA__c": 7.0,
+      "Package_LPA__c": 6.0,
+      "Website__c": "https://example.com/brightpath"
+    },
+    {
+      "attributes": {
+        "type": "Company__c",
+        "referenceId": "CompanyRef4"
+      },
+      "Name": "Ledgerline Finance",
+      "Industry__c": "Finance",
+      "Minimum_CGPA__c": 8.0,
+      "Package_LPA__c": 12.0,
+      "Website__c": "https://example.com/ledgerline"
+    }
+  ]
+}

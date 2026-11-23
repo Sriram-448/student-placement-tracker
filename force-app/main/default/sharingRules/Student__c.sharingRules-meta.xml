@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Students_With_Placement_Officers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Students are Private by default. This gives the Placement Officer role edit access to every student record.</description>
+        <label>Share Students With Placement Officers</label>
+        <sharedTo>
+            <role>Placement_Officer</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Placement_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Placed,Placed</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_CGPA_Between_0_And_10</fullName>
+    <active>true</active>
+    <description>Keeps the company cut-off realistic.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Minimum_CGPA__c)), OR(Minimum_CGPA__c &lt; 0, Minimum_CGPA__c &gt; 10))</errorConditionFormula>
+    <errorDisplayField>Minimum_CGPA__c</errorDisplayField>
+    <errorMessage>Minimum CGPA must be between 0 and 10.</errorMessage>
+</ValidationRule>
